@@ -24,21 +24,21 @@ body
     @include animation(lefteye 20s ease-in-out infinite)
 
 @include keyframes(righteye)
-  75%
+  55%
     @include transform(translateX(0))
+  60%
+    @include transform(translateX(5px))
+  75%
+    @include transform(translateX(5px))
   80%
-    @include transform(translateX(5px))
-  95%
-    @include transform(translateX(5px))
-  100%
     @include transform(translateX(0))
 
 @include keyframes(lefteye)
-  75%
+  55%
     @include transform(translateX(0))
+  60%
+    @include transform(translateX(13px))
+  75%
+    @include transform(translateX(13px))
   80%
-    @include transform(translateX(13px))
-  95%
-    @include transform(translateX(13px))
-  100%
     @include transform(translateX(0))
