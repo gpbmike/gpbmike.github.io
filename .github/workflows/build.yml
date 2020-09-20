@@ -32,7 +32,7 @@ jobs:
           ${{ runner.os }}-node-
 
     - run: npm install
-    - run: npm run eleventy
+    - run: npm run @11ty/eleventy
       
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
