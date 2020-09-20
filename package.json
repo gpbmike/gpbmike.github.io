@@ -1,28 +1,23 @@
 {
   "name": "gpbmike.github.io",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gpbmike/gpbmike.github.io.git"
+    "url": "git+https://github.com/gpbmike/gpbmike.github.io.git"
   },
-  "author": "Mike Horn",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/gpbmike/gpbmike.github.io/issues"
   },
+  "homepage": "https://github.com/gpbmike/gpbmike.github.io#readme",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.4.4",
-    "grunt-contrib-jade": "~0.7.0",
-    "grunt-contrib-sass": "~0.3.0",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-connect": "~0.3.0",
-    "connect-livereload": "~0.2.0",
-    "grunt-contrib-imagemin": "~0.1.4"
+    "@11ty/eleventy": "^0.11.0"
   }
 }
