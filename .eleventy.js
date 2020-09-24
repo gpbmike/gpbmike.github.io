@@ -1,3 +1,4 @@
-module.exports = {
-  templateFormats: ["njk", "png", "md", "svg"]
+module.exports = function(eleventyConfig) {
+  eleventyConfig.setTemplateFormats(["njk", "png", "md", "svg"]);
+  eleventyConfig.addPassthroughCopy("CNAME");
 };
