@@ -1,176 +1,21 @@
-html,
+:root {
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --font-family-serif: font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --font-family-mono: font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
+
+html {
+  font-size: 16px;
+  font-family: var(--font-family-sans-serif);
+}
+
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100%;
 }
 
-body {
-  background: url(/grumpy.svg) bottom left no-repeat #ddd;
-  background-size: 388px 217px;
-  height: 100%;
-}
-
-body:before {
-  content: url(/right-eye.png);
-  position: absolute;
-  bottom: 134px;
-  left: 220px;
-  -webkit-animation: righteye 20s ease-in-out infinite;
-  -moz-animation: righteye 20s ease-in-out infinite;
-  animation: righteye 20s ease-in-out infinite;
-}
-
-body:after {
-  content: url(/left-eye.png);
-  position: absolute;
-  bottom: 133px;
-  left: 266px;
-  -webkit-animation: lefteye 20s ease-in-out infinite;
-  -moz-animation: lefteye 20s ease-in-out infinite;
-  animation: lefteye 20s ease-in-out infinite;
-}
-
-@-webkit-keyframes righteye {
-  30% {
-    -webkit-transform: translateX(0);
-  }
-
-  40% {
-    -webkit-transform: translateX(5px);
-  }
-
-  55% {
-    -webkit-transform: translateX(5px);
-  }
-
-  58% {
-    -webkit-transform: translateX(0);
-  }
-}
-
-@-moz-keyframes righteye {
-  30% {
-    -moz-transform: translateX(0);
-  }
-
-  40% {
-    -moz-transform: translateX(5px);
-  }
-
-  55% {
-    -moz-transform: translateX(5px);
-  }
-
-  58% {
-    -moz-transform: translateX(0);
-  }
-}
-
-@-o-keyframes righteye {
-  30% {
-    -o-transform: translateX(0);
-  }
-
-  40% {
-    -o-transform: translateX(5px);
-  }
-
-  55% {
-    -o-transform: translateX(5px);
-  }
-
-  58% {
-    -o-transform: translateX(0);
-  }
-}
-
-@keyframes righteye {
-  30% {
-    transform: translateX(0);
-  }
-
-  40% {
-    transform: translateX(5px);
-  }
-
-  55% {
-    transform: translateX(5px);
-  }
-
-  58% {
-    transform: translateX(0);
-  }
-}
-
-@-webkit-keyframes lefteye {
-  30% {
-    -webkit-transform: translateX(0);
-  }
-
-  40% {
-    -webkit-transform: translateX(13px);
-  }
-
-  55% {
-    -webkit-transform: translateX(13px);
-  }
-
-  58% {
-    -webkit-transform: translateX(0);
-  }
-}
-
-@-moz-keyframes lefteye {
-  30% {
-    -moz-transform: translateX(0);
-  }
-
-  40% {
-    -moz-transform: translateX(13px);
-  }
-
-  55% {
-    -moz-transform: translateX(13px);
-  }
-
-  58% {
-    -moz-transform: translateX(0);
-  }
-}
-
-@-o-keyframes lefteye {
-  30% {
-    -o-transform: translateX(0);
-  }
-
-  40% {
-    -o-transform: translateX(13px);
-  }
-
-  55% {
-    -o-transform: translateX(13px);
-  }
-
-  58% {
-    -o-transform: translateX(0);
-  }
-}
-
-@keyframes lefteye {
-  30% {
-    transform: translateX(0);
-  }
-
-  40% {
-    transform: translateX(13px);
-  }
-
-  55% {
-    transform: translateX(13px);
-  }
-
-  58% {
-    transform: translateX(0);
-  }
+main {
+  max-width: 600px;
+  margin: 1rem;
 }
