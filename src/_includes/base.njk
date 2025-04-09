@@ -4,14 +4,15 @@ title: Mike Horn
 
 <!doctype html>
 <html lang="en">
-<head>
-<title>{{ title }}</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Personal website of Mike Horn, plant enthusiast and .">
-<link rel="stylesheet" href="{{ '/css/main.css' | url }}">
-</head>
-<body>
-  {{ content | safe }}
-</body>
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Mike Horn, plant enthusiast and web developer.">
+    <meta name="generator" content="{{ eleventy.generator }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+  </head>
+  <body>
+    {{ content | safe }}
+  </body>
 </html>

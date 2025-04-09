@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/gpbmike/gpbmike.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
+    "@11ty/eleventy": "^3.0.0"
   }
 }
