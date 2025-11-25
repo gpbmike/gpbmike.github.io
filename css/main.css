@@ -10,6 +10,10 @@ html {
 }
 
 body {
+  color-scheme: light dark;
+  color: CanvasText;
+  background-color: Canvas;
+  
   margin: 0;
   padding: 0;
   min-height: 100%;
